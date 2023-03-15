@@ -1,4 +1,4 @@
-baseURL: "https://hugo-profile.netlify.app"
+baseURL: "https://usenapati.github.io/"
 languageCode: "en-us"
 title: "Udayan Senapati"
 theme: hugo-profile
@@ -24,15 +24,15 @@ markup:
 
 Menus:
   main:
-    - identifier: blog
-      name: Blog
-      title: Blog posts
-      url: /blogs
+    - identifier: devlogs
+      name: Dev Logs
+      title: Dev Logs
+      url: /devlogs
       weight: 1
-    - identifier: gallery
-      name: Gallery
-      title: Blog posts
-      url: /gallery
+    - identifier: games
+      name: Games
+      title: Games
+      url: /games
       weight: 2
     #Dropdown menu
     # - identifier: dropdown
@@ -54,9 +54,9 @@ Menus:
 
 params:
   title: "Udayan Senapati"
-  description: Text about my cool site
+  description: Portfolio # TODO
   # staticPath: ""  # The path to serve the static files from
-  favicon: "/fav.png"
+  favicon: "/fav.png" # TODO Create Logo
 
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
   # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
@@ -105,6 +105,7 @@ params:
     brandName: "Udayan Senapati" # Brand name for the brand | default is the title variable
     disableSearch: false
     menus:
+      disableNewProjects: false
       disableProjects: false
       disableExperience: false
       disableEducation: false
@@ -118,7 +119,7 @@ params:
     intro: "Hi, my name is"
     title: "Udayan Senapati."
     subtitle: "I make games"
-    content: "A passionate game developer. I tend to make use of modern technologies to make games and software that looks great, feels fantastic, and functions correctly."
+    content: "A skilled game developer with a passion for creating immersive games. With expertise in various game engines and programming languages, I create enjoyable user experiences that captivate and engage players."
     image: /images/profile.png
     button:
       enable: true
@@ -128,47 +129,32 @@ params:
       newPage: true
     socialLinks:
       fontAwesomeIcons:
-        - icon: fab fa-github
-          url: https://github.com/usenapati
         - icon: fab fa-linkedin
           url: https://www.linkedin.com/in/udayan-s-b04874105/
+        - icon: fab fa-github
+          url: https://github.com/usenapati
+        - icon: fab fa-itch-io
+          url: https://udayansenapati.itch.io/
           # TODO Twitter?
-      customIcons:
-      # TODO Itch
-        - icon: /fav.png
-          url: "https://example.com"
-
-  # Latest Projects
-  latest-projects:
-    enable: true
-    # title: "Custom Name"
-    items:
-      - title: Transfusion
-        content: TODO
-        image: 
-        featured:
-          name: Read More
-          link: "#"
-        badges:
-          - "Unreal Engine 4"
-          - "Blueprints"
-          - "VR"
-          - "Work in Progress"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/usenapati/Transfusion_VR
+      #customIcons:
+      #  - icon: /fav.png
+      #    url: "https://example.com"
 
   # projects
-  projects:
+  newprojects:
     enable: true
     # title: "Custom Name"
     items:
       - title: Transfusion
-        content: TODO
+        content: |
+          A VR Action game about slicing your foes as you try to survive in an alien gladiator arena. 
+          This project is in active development with a team of 6 developers. It is currently being developed in Unreal Engine 4 and built for Meta Quest. 
+
+        video: https://www.youtube.com/embed/VyRJVlhWZbI
         image: 
         featured:
           name: Read More
-          link: "#"
+          link: "/games/transfusion"
         badges:
           - "Unreal Engine 4"
           - "Blueprints"
@@ -177,6 +163,26 @@ params:
         links:
           - icon: fab fa-github
             url: https://github.com/usenapati/Transfusion_VR
+      - title: Mecha Mania
+        content: TODO
+        youtube: 
+        image: /images/projects/mechamania/gundamevolution2.jpg
+        featured:
+          name: Read More
+          link: "#"
+        badges:
+          - "Unreal Engine 5"
+          - "C++"
+          - "Blueprints"
+          - "FPS"
+          - "Work in Progress"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/usenapati/Transfusion_VR
+  projects:
+    enable: true
+    title: "Featured Projects"
+    items:
       - title: Galaga 3D
         content: TODO
         image: 
@@ -185,9 +191,14 @@ params:
           link: "#"
         badges:
           - "Unity"
+          - "C#"
+          - "3D"
+          - "Windows"
         links:
           - icon: fab fa-github
             url: https://github.com/usenapati/Transfusion_VR
+        category:
+          - "Unity"
       - title: Nekomancy
         content: TODO
         image: 
@@ -196,6 +207,9 @@ params:
           link: "#"
         badges:
           - "Unity"
+          - "C#"
+          - "3D"
+          - "Windows"
         links:
           - icon: fab fa-github
             url: https://github.com/usenapati/Transfusion_VR
@@ -210,6 +224,7 @@ params:
           - "SFML"
           - "ZeroMQ"
           - "Duktape/DukGlue"
+          - "Windows"
         links:
           - icon: fab fa-github
             url: https://github.com/usenapati/Transfusion_VR
@@ -370,7 +385,7 @@ params:
             - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
             - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
         featuredLink:
-          enable: true
+          enable: false
           name: "My academic record"
           url: "https://example.com"
       - title: "High School"
@@ -434,7 +449,7 @@ params:
 
   footer:
     recentPosts:
-      path: "blogs"
+      path: "devlogs"
       count: 3
       title: Recent Posts
       enable: true
@@ -443,6 +458,7 @@ params:
       github: https://github.com/usenapati
       linkedin: https://www.linkedin.com/in/udayan-s-b04874105/
       twitter: https://twitter.com
+
       # instagram: https://instagram.com
       # facebook: https://facebook.com
 
