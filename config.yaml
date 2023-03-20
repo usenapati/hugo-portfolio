@@ -54,9 +54,9 @@ Menus:
 
 params:
   title: "Udayan Senapati"
-  description: Portfolio # TODO
+  description: Portfolio
   # staticPath: ""  # The path to serve the static files from
-  favicon: "/fav.png" # TODO Create Logo
+  favicon: "/icon3.png"
 
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
   # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
@@ -101,7 +101,7 @@ params:
   # If you want to customize the menu, you can change it here
   navbar:
     align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
-    # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
+    brandLogo: "/icon3.png" # Logo for the brand | default is the favicon variable
     brandName: "Udayan Senapati" # Brand name for the brand | default is the title variable
     disableSearch: false
     menus:
@@ -147,9 +147,9 @@ params:
     items:
       - title: Transfusion
         content: |
-          A VR Action game about slicing your foes as you try to survive in an alien gladiator arena. 
+          A VR Hack and Slash game about slicing your foes as you try to survive in an alien gladiator arena. 
           This project is in active development with a team of 6 developers. It is currently being developed in Unreal Engine 4 and built for Meta Quest. 
-
+          We are aiming for a release on the Steam Store.
         video: https://www.youtube.com/embed/VyRJVlhWZbI
         image: 
         featured:
@@ -164,12 +164,14 @@ params:
           - icon: fab fa-github
             url: https://github.com/usenapati/Transfusion_VR
       - title: Mecha Mania
-        content: TODO
+        content: |
+          A Multiplayer FPS fan game inspired by Titanfall 2 and Gundam franchise. The game is being developed in Unreal Engine 5 and built for Windows.
+          The goal of the project is to create a complete multiplayer game in Unreal Engine using C++, while learning the core fundamentals of the First Person Shooter genre.
         youtube: 
         image: /images/projects/mechamania/gundamevolution2.jpg
         featured:
           name: Read More
-          link: "#"
+          link: "/games/mechamania"
         badges:
           - "Unreal Engine 5"
           - "C++"
@@ -178,17 +180,17 @@ params:
           - "Work in Progress"
         links:
           - icon: fab fa-github
-            url: https://github.com/usenapati/Transfusion_VR
+            url: https://github.com/usenapati/Mecha_Mania
   projects:
     enable: true
     title: "Featured Projects"
     items:
       - title: Galaga 3D
         content: TODO
-        image: 
+        image: /images/projects/galaga3d/galaga3d-1.png
         featured:
           name: Read More
-          link: "#"
+          link: "/games/galaga3d"
         badges:
           - "Unity"
           - "C#"
@@ -196,15 +198,17 @@ params:
           - "Windows"
         links:
           - icon: fab fa-github
-            url: https://github.com/usenapati/Transfusion_VR
+            url: https://github.com/Ankhman12/Galaga3D
+          - icon: fab fa-itch-io
+            url: https://phillips-albright.itch.io/galaga3d
         category:
           - "Unity"
-      - title: Nekomancy
+      - title: Nekomancer
         content: TODO
-        image: 
+        image: /images/projects/nekomancer/icon.png
         featured:
           name: Read More
-          link: "#"
+          link: "/games/nekomancer"
         badges:
           - "Unity"
           - "C#"
@@ -212,28 +216,30 @@ params:
           - "Windows"
         links:
           - icon: fab fa-github
-            url: https://github.com/usenapati/Transfusion_VR
+            url: https://github.com/phillipsalbright/Nekomancer
+          - icon: fab fa-itch-io
+            url: https://phillips-albright.itch.io/nekomancer
       - title: C++ Game Engine
         content: TODO
-        image: 
+        image: /images/projects/CSC481-2DGameEngine/gameplay.gif
         featured:
           name: Read More
-          link: "#"
+          link: "/games/2dgameengine"
         badges:
           - "C++"
           - "SFML"
           - "ZeroMQ"
           - "Duktape/DukGlue"
           - "Windows"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/usenapati/Transfusion_VR
+        # links:
+        #   - icon: fab fa-github
+        #     url: https://github.com/usenapati/Transfusion_VR
       - title: CLONE WARS Tabletop Tower Defense
         content: TODO
-        image: 
+        image: images/projects/clonewars/gameplay.gif
         featured:
           name: Read More
-          link: "#"
+          link: "/games/clonewars"
         badges:
           - "Unity"
           - "C#"
@@ -241,7 +247,9 @@ params:
           - "Android"
         links:
           - icon: fab fa-github
-            url: https://github.com/usenapati/Transfusion_VR
+            url: https://github.com/willcarpenter3/ARTowerDefense
+          - icon: fab fa-google-play
+            url: https://play.google.com/store/apps/details?id=com.TTDDevs.CloneWARsTTD
       # Samples below
       # - title: Hugo Profile
       #   content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
@@ -295,14 +303,21 @@ params:
     items:
       - job: "Developer/Researcher"
         company: "POEM Lab"
-        companyUrl:
+        companyUrl: https://sites.google.com/ncsu.edu/poem/
         date: "June 2021 - Aug 2021"
-        content:
+        content: |-
+          POEM Lab is an undergraduate lab that designs programming languages and tools, for computer generated narratives.
+          - Incorporated voice recognition for Ceptre Editor using Talon Voice Control. The Ceptre Editor is a browser-based structure editor for POEM’s rule-based language, Ceptre.
+          - Followed WAI-ARIA specifications to make the software accessible to people with disabilities using HTML and JavaScript.
       - job: "Developer"
         company: "Indigo Dynamic Networks"
-        companyUrl:
+        companyUrl: http://indigodynamic.com/
         date: "June 2017 - Nov 2019"
-        content:
+        content: |-
+          Indigo Dynamic is a company that provides CRM and merchant services software to small and medium businesses.
+          - Developed custom “Event Booking Sites” for multiple clients using templates with PHP, HTML, and CSS.
+          - Customized email notifications for multiple clients with JavaScript and CSS.
+          - Collaborated with other developers across time zones while working with pre-existing codebase.
       # SAMPLES BELOW
       # - job: "Senior Software Developer"
       #   company: "Facebook"
@@ -373,26 +388,31 @@ params:
       - title: "Bachelor of Science in Computer Science"
         school:
           name: "North Carolina State University"
-          url: "https://example.org"
-        date: "2018 - 2022"
-        GPA: "3.3 out of 4.0"
+          url: "https://www.ncsu.edu/"
+        date: "August 2018 - May 2022"
+        #GPA: "3.273 out of 4.0"
         content: |-
-          I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
-          - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
-          - Face mask detection using a single convolutional neural network.
+          Relevant Courses:
+            - Game Engine Foundations
+            - Computer Graphics
+            - Building Game A.I.
+            - Software Engineering
+            - Data Structures and Algorithms
+            - Operating Systems
+            - Object Oriented Programming Concepts
+            - Trends in Game Technology
 
           Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
+            - Video Game Development Club (General Officer)
         featuredLink:
           enable: false
           name: "My academic record"
           url: "https://example.com"
-      - title: "High School"
-        school:
-          name: "Apex Friendship High School"
-          url: "https://example.org"
-        GPA: "4.2 out of 5.0"
+      # - title: "High School"
+      #   school:
+      #     name: "Apex Friendship High School"
+      #     url: "https://www.wcpss.net/apexfriendshiphs"
+          #GPA: "4.2 out of 5.0"
 
   # About
   about:
@@ -457,7 +477,8 @@ params:
     socialNetworks:
       github: https://github.com/usenapati
       linkedin: https://www.linkedin.com/in/udayan-s-b04874105/
-      twitter: https://twitter.com
+      #twitter: https://twitter.com
+      itch-io: https://udayansenapati.itch.io/
 
       # instagram: https://instagram.com
       # facebook: https://facebook.com
