@@ -150,6 +150,8 @@ params:
           A VR Hack and Slash game about slicing your foes as you try to survive in an alien gladiator arena. 
           This project is in active development with a team of six developers. It is currently being developed in Unreal Engine 4 and built for Meta Quest. 
           We are aiming for a release on the Steam Store.
+          
+          Role: Lead Programmer
         video: https://www.youtube.com/embed/VyRJVlhWZbI
         image: 
         featured:
@@ -159,14 +161,16 @@ params:
           - "Unreal Engine 4"
           - "Blueprints"
           - "VR"
-          - "Work in Progress"
+          - "Single Player"
+          - "Active Development"
         links:
           - icon: fab fa-github
             url: https://github.com/usenapati/Transfusion_VR
       - title: Mecha Mania
-        content: |
-          A Multiplayer FPS fan game inspired by Titanfall 2 and Gundam franchise. The game is being developed in Unreal Engine 5 and built for Windows.
-          The goal of the project is to create a complete multiplayer game in Unreal Engine using C++, while learning the core fundamentals of the First Person Shooter genre.
+        content: |+    
+          A Multiplayer FPS fan game inspired by Titanfall 2 and Gundam franchise. The game is being developed in Unreal Engine 5 and built for Windows. The goal of the project is to create a complete networked multiplayer game in Unreal Engine using C++, while learning the core fundamentals of the First Person Shooter genre. 
+            
+          This is a solo project.  
         youtube: 
         image: /images/projects/mechamania/gundamevolution2.jpg
         featured:
@@ -177,7 +181,8 @@ params:
           - "C++"
           - "Blueprints"
           - "FPS"
-          - "Work in Progress"
+          - "Networked Multiplayer"
+          - "Active Development"
         links:
           - icon: fab fa-github
             url: https://github.com/usenapati/Mecha_Mania
@@ -186,7 +191,9 @@ params:
     title: "Featured Projects"
     items:
       - title: Galaga 3D
-        content: A 3D Space Shooter Game based off of the original Galaga arcade game. Developed during the VGDC 2022 Spring Jam using Unity in a team of three. The game is playable on browser on itch.io.
+        content: |
+          A 3D Space Shooter Game based off of the original Galaga arcade game. Developed during the VGDC 2022 Spring Jam using Unity in a team of three. The game is playable on browser on itch.io. 
+          My role in this project was Lead Gameplay/AI Programmer.
         image: /images/projects/galaga3d/galaga3d-1.png
         featured:
           name: Read More
@@ -197,6 +204,7 @@ params:
           - "3D"
           - "Windows"
           - "WebGL"
+          - "Single Player"
         links:
           - icon: fab fa-github
             url: https://github.com/Ankhman12/Galaga3D
@@ -205,7 +213,9 @@ params:
         category:
           - "Unity"
       - title: Nekomancer
-        content: A 3D Platformer built during the NCSU/Red Storm Jam where the theme was Zombie Cats. The game is playable on browser on itch.io.
+        content: |
+          A 3D Platformer built during the NCSU/Red Storm Jam where the theme was Zombie Cats. The game is playable on browser on itch.io.
+          My role in this project was Gameplay Programmer.
         image: /images/projects/nekomancer/icon.png
         featured:
           name: Read More
@@ -216,6 +226,7 @@ params:
           - "3D"
           - "Windows"
           - "WebGL"
+          - "Single Player"
         links:
           - icon: fab fa-github
             url: https://github.com/phillipsalbright/Nekomancer
@@ -225,6 +236,7 @@ params:
         content: | 
           A 2D Game engine developed for CSC481: Game Engine Foundations. 
           This projects included multiple concepts such as: Multithreading, Networking, Event Management, Scripting, etc. 
+          This was a solo project.
           Please contact me if you want access to the source code.
         image: /images/projects/CSC481-2DGameEngine/gameplay.gif
         featured:
@@ -236,12 +248,14 @@ params:
           - "ZeroMQ"
           - "Duktape/DukGlue"
           - "Windows"
+          - "Networked Multiplayer"
         # links:
         #   - icon: fab fa-github
         #     url: https://github.com/usenapati/Transfusion_VR
       - title: CLONE WARS Tabletop Tower Defense
         content: | 
           An AR Tower Defense game built using Unity with Google ARCore SDK and published on Google Play Store. 
+          My role in this project was Gameplay/Systems Programmer.
         image: images/projects/clonewars/gameplay.gif
         featured:
           name: Read More
@@ -251,6 +265,7 @@ params:
           - "C#"
           - "AR"
           - "Android"
+          - "Single Player"
         links:
           - icon: fab fa-github
             url: https://github.com/willcarpenter3/ARTowerDefense
