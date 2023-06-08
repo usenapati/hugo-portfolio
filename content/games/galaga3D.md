@@ -1,42 +1,54 @@
 ---
 title: Galaga3D
-date: 2021-04-03T22:41:10+05:30
+date: 2023-06-07T17:21:10-04:00
 draft: false
-github_link: "https://github.com/gurusabarish/hugo-profile"
-author: "Gurusabarish"
+github_link: "https://github.com/Ankhman12/Galaga3D"
+author: "Udayan Senapati"
 tags:
-  - Placeholder text
-  - Sample
-  - example
-image: /images/post.jpg
-description: ""
-toc: 
+  - Unity
+  - C#
+  - 3D
+  - Windows
+  - WebGL
+  - Single Player
+  - Game Jam
+  - Group Project
+image: /images/projects/galaga3d/galaga3d-1.png
+description: "A 3D Space Shooter based off of the original Galaga arcade game. "
+toc: false
 ---
 
-Lorem est tota propiore conpellat pectoribus de pectora summo.
+Galaga3D is a 3D Space Shooter Game based off of the original Galaga arcade game. Fight and evade countless waves of enemies using your blasters or lasers and try to beat your own high scores. 
 
-Redit teque digerit hominumque toris verebor lumina non cervice subde tollit usus habet Arctonque, furores quas nec ferunt. Quoque montibus nunc caluere tempus inhospita parcite confusaque translucet patri vestro qui optatis lumine cognoscere flos nubis! Fronde ipsamque patulos Dryopen deorum.
+The game was developed with a team of three during the VGDC 2022 Spring Jam, where the theme was recycle. The game was developed using Unity and all game models were created using Blender. 
 
-  1. Exierant elisi ambit vivere dedere
-  2. Duce pollice
-  3. Eris modo
-  4. Spargitque ferrea quos palude
+The team included:
+- Udayan Senapati
+- Mitchell Dunning
+- Phillips Albright
 
-Rursus nulli murmur; hastile inridet ut ab gravi sententia! Nomine potitus silentia flumen, sustinet placuit petis in dilapsa erat sunt. Atria tractus malis.
+Galaga3D is playable on browser on [itch.io](https://phillips-albright.itch.io/galaga3d) can be downloaded for Windows.
 
-  1. Comas hunc haec pietate fetum procerum dixit
-  2. Post torum vates letum Tiresia
-  3. Flumen querellas
-  4. Arcanaque montibus omnes
-  5. Quidem et
+## My Work
+Due to the Game Jam's theme being Recycle, I reused my [Asteroid3D](https://chonibi.itch.io/asteroids-3d) Project from my Computer Graphics course. The project included the ship's controls and abilities, wave system, high score system, HUD UI, and Menu UI. 
 
-# Vagus elidunt
+For the new game, I designed and implemented the AI Wave system using the[Boid Flocking](https://www.red3d.com/cwr/boids/) algorithm. The waves contained multiple squads that were led by a squad leader. The goal of the system was to recreate a similar Galaga wave system that seemed more realistic for a 3D space. I implemented enemy types, including the base Wasp enemy and Shielded Beetle enemy. The Flocking system can be adjusted through different heuristics including separation, alignment, cohesion, and aggression. The aggression heuristic increases each waves as enemies would target the player ship more often. 
 
-[The Van de Graaf Canon](https://en.wikipedia.org/wiki/Canons_of_page_construction#Van_de_Graaf_canon)
-
-## Mane refeci capiebant unda mulcebat
-Victa caducifer, malo vulnere contra dicere aurato, ludit regale, voca! Retorsit colit est profanae esse virescere furit nec; iaculi matertera et visa est, viribus. Divesque creatis, tecta novat collumque vulnus est, parvas. Faces illo pepulere tempus adest. Tendit flamma, ab opes virum sustinet, sidus sequendo urbis.
-
-Iubar proles corpore raptos vero auctor imperium; sed et huic: manus caeli Lelegas tu lux. Verbis obstitit intus oblectamina fixis linguisque ausus sperare Echionides cornuaque tenent clausit possit. Omnia putatur. Praeteritae refert ausus; ferebant e primus lora nutat, vici quae mea ipse. Et iter nil spectatae vulnus haerentia iuste et exercebat, sui et.
-
-Eurytus Hector, materna ipsumque ut Politen, nec, nate, ignari, vernum cohaesit sequitur. Vel mitis temploque vocatus, inque alis, oculos nomen non silvis corpore coniunx ne displicet illa. Crescunt non unus, vidit visa quantum inmiti flumina mortis facto sic: undique a alios vincula sunt iactata abdita! Suspenderat ego fuit tendit: luna, ante urbem Propoetides parte.
+Contributions:
+- Player Ship
+  - Ship Controls (Thrust, Roll)
+  - Camera Controls (Turn, Pan)
+  - Input System (Mouse and Keyboard and Controller Input)
+  - Third Person/First Person Camera Switching
+  - Boosting
+  - Weapons (Blaster Projectile and Laser Hitscan)
+  - Ship Health Component
+- Wave System
+  - Flocking System
+  - Enemy Class
+    - Enemy Aggression
+    - Enemy Health
+- High Score System
+- User Interface
+  - Menu Interfaces
+  - In-Game HUD

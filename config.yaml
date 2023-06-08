@@ -130,7 +130,7 @@ params:
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-linkedin
-          url: https://www.linkedin.com/in/udayan-s-b04874105/
+          url: https://www.linkedin.com/in/udayansenapati/
         - icon: fab fa-github
           url: https://github.com/usenapati
         - icon: fab fa-itch-io
@@ -234,9 +234,9 @@ params:
             url: https://phillips-albright.itch.io/nekomancer
       - title: C++ Game Engine
         content: | 
-          A 2D Game engine developed for CSC481: Game Engine Foundations. 
-          This projects included multiple concepts such as: Multithreading, Networking, Event Management, Scripting, etc. 
-          This was a solo project.
+          A 2D Game engine developed for my class, Game Engine Foundations as a solo project. 
+          This project implemented multiple concepts such as: Multithreading, Networking, Event Management, Scripting, etc. 
+
           Please contact me if you want access to the source code.
         image: /images/projects/CSC481-2DGameEngine/gameplay.gif
         featured:
@@ -498,7 +498,7 @@ params:
       disableFeaturedImage: false
     socialNetworks:
       github: https://github.com/usenapati
-      linkedin: https://www.linkedin.com/in/udayan-s-b04874105/
+      linkedin: https://www.linkedin.com/in/udayansenapati/
       #twitter: https://twitter.com
       itch-io: https://udayansenapati.itch.io/
 

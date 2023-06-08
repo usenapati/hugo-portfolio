@@ -1,42 +1,56 @@
 ---
-title: "Transfusion"
-date: 2021-04-03T22:41:10+05:30
+title: "Mecha Mania"
+date: 2023-05-27T17:10:10-04:00
 draft: false
-github_link: "https://github.com/gurusabarish/hugo-profile"
-author: "Gurusabarish"
+github_link: "https://github.com/usenapati/Mecha_Mania"
+author: "Udayan Senapati"
 tags:
-  - Placeholder text
-  - Sample
-  - example
-image: /images/post.jpg
-description: ""
-toc: 
+  - Unreal Engine
+  - C++
+  - FPS
+  - Multiplayer
+  - Windows
+  - Steam
+  - Active Development
+  - Solo Project
+image: /images/projects/mechamania/gundamevolution2.jpg
+description: "A Multiplayer FPS fan game inspired by Titanfall 2 and Gundam franchise."
+toc: false
 ---
 
-Lorem est tota propiore conpellat pectoribus de pectora summo.
+Mecha Mania is a multiplayer first-person shooter inspired by Titanfall 2 and the Gundam franchise. The game is being developed in Unreal Engine 5 and will be available for Windows. Compete in a 3v3 team deathmatch where you must gather mech parts and obliterate the enemy team with your completed mech. Throughout the arena, you'll have an arsenal of weapons and tools to help you stop the enemy team. Use your movement abilities, including wallrunning, sliding, and climbing, to traverse your environment and outmaneuver your enemies.
 
-Redit teque digerit hominumque toris verebor lumina non cervice subde tollit usus habet Arctonque, furores quas nec ferunt. Quoque montibus nunc caluere tempus inhospita parcite confusaque translucet patri vestro qui optatis lumine cognoscere flos nubis! Fronde ipsamque patulos Dryopen deorum.
+The project's goal is to create a complete networked multiplayer game in Unreal Engine using C++, while learning the core fundamentals of the first-person shooter genre.
 
-  1. Exierant elisi ambit vivere dedere
-  2. Duce pollice
-  3. Eris modo
-  4. Spargitque ferrea quos palude
+## My Work
+For this project, I focused on implementing a first-person shooter (FPS) game using C++ and Blueprints in Unreal Engine 5. This project served as a learning opportunity for me to gain experience with developing a networked multiplayer game in Unreal Engine 5. Additionally, I wanted to understand and recreate features from modern FPS games, such as different weapon types, player abilities, and objective-based game modes.
 
-Rursus nulli murmur; hastile inridet ut ab gravi sententia! Nomine potitus silentia flumen, sustinet placuit petis in dilapsa erat sunt. Atria tractus malis.
+Contributions:
+- Multiplayer Plugin
+  - Independent Plugin that connects to the Steam Online Subsystem (Requires Steam Login)
+  - Handles Hosting and Joining Sessions
+  - Loads Lobby and Game Map
+- First Person/Third Person Character Class
+  - Locomotion and Camera Controls (3Cs)
+  - Swap between First Person and Third Person Camera
+  - Keyboard and Controller Support
+  - Animation State Machine (Aim Offsets, Blendspaces, and IK)
+- Combat Component Class
+  - Handles Character's Weapon Inventory
+  - Weapon Firing and Reloading Montages
+- Weapon Class
+  - Projectile Spawning
+  - Fire Effects
+  - Hit Events
+  - Bullet Shell Physics
+  - Different Weapon Types (Projectile and Hitscan)
+- Character Ability Component Class
+  - Interfaces with Character Movement Component to allow for movement abilities
+  - Wall Running
+  - Sliding
+- Match State Class
+  - Game Timer
+  - Custom States
 
-  1. Comas hunc haec pietate fetum procerum dixit
-  2. Post torum vates letum Tiresia
-  3. Flumen querellas
-  4. Arcanaque montibus omnes
-  5. Quidem et
-
-# Vagus elidunt
-
-[The Van de Graaf Canon](https://en.wikipedia.org/wiki/Canons_of_page_construction#Van_de_Graaf_canon)
-
-## Mane refeci capiebant unda mulcebat
-Victa caducifer, malo vulnere contra dicere aurato, ludit regale, voca! Retorsit colit est profanae esse virescere furit nec; iaculi matertera et visa est, viribus. Divesque creatis, tecta novat collumque vulnus est, parvas. Faces illo pepulere tempus adest. Tendit flamma, ab opes virum sustinet, sidus sequendo urbis.
-
-Iubar proles corpore raptos vero auctor imperium; sed et huic: manus caeli Lelegas tu lux. Verbis obstitit intus oblectamina fixis linguisque ausus sperare Echionides cornuaque tenent clausit possit. Omnia putatur. Praeteritae refert ausus; ferebant e primus lora nutat, vici quae mea ipse. Et iter nil spectatae vulnus haerentia iuste et exercebat, sui et.
-
-Eurytus Hector, materna ipsumque ut Politen, nec, nate, ignari, vernum cohaesit sequitur. Vel mitis temploque vocatus, inque alis, oculos nomen non silvis corpore coniunx ne displicet illa. Crescunt non unus, vidit visa quantum inmiti flumina mortis facto sic: undique a alios vincula sunt iactata abdita! Suspenderat ego fuit tendit: luna, ante urbem Propoetides parte.
+## The Future
+This project is currently in active development. I am currently working on fleshing out the player abilities and polishing the game mode. Afterwards, I plan to create the game map and AI bot system. Next, I want to add more features inspired by the Gundam franchise, particularly a Gundam that can be controlled by the player. Lastly, I am using Lyra Game models and animations, as well as Epic Games' weapon models and animations, which are sufficient for early development. Depending on whether I release this project publicly, I am interested in learning more about low-poly modeling and may try to create low-poly assets based on the PS1 Gundam games.

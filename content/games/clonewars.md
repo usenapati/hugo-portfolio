@@ -1,42 +1,31 @@
 ---
 title: "CLONE WARS Tabletop Tower Defense"
-date: 2021-04-03T22:41:10+05:30
+date: 2023-06-07T14:44:10-04:00
 draft: false
-github_link: "https://github.com/gurusabarish/hugo-profile"
-author: "Gurusabarish"
+github_link: "https://github.com/willcarpenter3/ARTowerDefense"
+author: "Udayan Senapati"
 tags:
-  - Placeholder text
-  - Sample
-  - example
-image: /images/post.jpg
-description: ""
-toc: 
+  - Unity
+  - C#
+  - AR
+  - Tower Defense
+  - Android
+  - Single Player
+  - Group Project
+image: /images/projects/clonewars/gameplay.gif
+description: "An AR Tower Defense game built using Unity with Google ARCore SDK and published on Google Play Store."
+toc: false
 ---
+CLONE WARS is a AR Tower Defense Game based in the Star Wars universe. The Player scans a 3D space, then they can add towers and enemy spawners. Each round, the towers must defend the player’s ship from waves of enemies. The player can use points earned each round to buy more towers.
 
-Lorem est tota propiore conpellat pectoribus de pectora summo.
+The game was originally a friend's school project that grew into a personal project with a team of four. The game was developed using Unity and Google's ARCore.
 
-Redit teque digerit hominumque toris verebor lumina non cervice subde tollit usus habet Arctonque, furores quas nec ferunt. Quoque montibus nunc caluere tempus inhospita parcite confusaque translucet patri vestro qui optatis lumine cognoscere flos nubis! Fronde ipsamque patulos Dryopen deorum.
+Clone Wars is downloadable on the [Google Play Store](https://play.google.com/store/apps/details?id=com.TTDDevs.CloneWARsTTD&hl=en_US&gl=US).
 
-  1. Exierant elisi ambit vivere dedere
-  2. Duce pollice
-  3. Eris modo
-  4. Spargitque ferrea quos palude
 
-Rursus nulli murmur; hastile inridet ut ab gravi sententia! Nomine potitus silentia flumen, sustinet placuit petis in dilapsa erat sunt. Atria tractus malis.
-
-  1. Comas hunc haec pietate fetum procerum dixit
-  2. Post torum vates letum Tiresia
-  3. Flumen querellas
-  4. Arcanaque montibus omnes
-  5. Quidem et
-
-# Vagus elidunt
-
-[The Van de Graaf Canon](https://en.wikipedia.org/wiki/Canons_of_page_construction#Van_de_Graaf_canon)
-
-## Mane refeci capiebant unda mulcebat
-Victa caducifer, malo vulnere contra dicere aurato, ludit regale, voca! Retorsit colit est profanae esse virescere furit nec; iaculi matertera et visa est, viribus. Divesque creatis, tecta novat collumque vulnus est, parvas. Faces illo pepulere tempus adest. Tendit flamma, ab opes virum sustinet, sidus sequendo urbis.
-
-Iubar proles corpore raptos vero auctor imperium; sed et huic: manus caeli Lelegas tu lux. Verbis obstitit intus oblectamina fixis linguisque ausus sperare Echionides cornuaque tenent clausit possit. Omnia putatur. Praeteritae refert ausus; ferebant e primus lora nutat, vici quae mea ipse. Et iter nil spectatae vulnus haerentia iuste et exercebat, sui et.
-
-Eurytus Hector, materna ipsumque ut Politen, nec, nate, ignari, vernum cohaesit sequitur. Vel mitis temploque vocatus, inque alis, oculos nomen non silvis corpore coniunx ne displicet illa. Crescunt non unus, vidit visa quantum inmiti flumina mortis facto sic: undique a alios vincula sunt iactata abdita! Suspenderat ego fuit tendit: luna, ante urbem Propoetides parte.
+## My Work
+Contributions:
+  - Added health bars over enemies to display their health to the player. 
+  - Created a ragdoll animation for the enemies when they die.
+  - Used Unity’s LineRenderer to display the path the enemy waves would follow. 
+  - Created a Credit System that allowed the Player to earn credits for each enemy they defeated. The credit amount would depend on the difficulty of the unit. The Credits that the player earned could be spent on buying more towers.
