@@ -30,7 +30,7 @@ The team included:
 Galaga3D is playable on browser on [itch.io](https://phillips-albright.itch.io/galaga3d) can be downloaded for Windows.
 
 ## My Work
-Due to the Game Jam's theme being Recycle, I reused my [Asteroid3D](https://chonibi.itch.io/asteroids-3d) Project from my Computer Graphics course. The project included the ship's controls and abilities, wave system, high score system, HUD UI, and Menu UI. 
+Due to the Game Jam's theme being Recycle, I reused my [Asteroid3D](https://chonibi.itch.io/asteroids-3d) Project from CSC461 Computer Graphics course. The project included the ship's controls and abilities, wave system, high score system, HUD UI, and Menu UI. 
 
 For the new game, I designed and implemented the AI Wave system using the[Boid Flocking](https://www.red3d.com/cwr/boids/) algorithm. The waves contained multiple squads that were led by a squad leader. The goal of the system was to recreate a similar Galaga wave system that seemed more realistic for a 3D space. I implemented enemy types, including the base Wasp enemy and Shielded Beetle enemy. The Flocking system can be adjusted through different heuristics including separation, alignment, cohesion, and aggression. The aggression heuristic increases each waves as enemies would target the player ship more often. 
 

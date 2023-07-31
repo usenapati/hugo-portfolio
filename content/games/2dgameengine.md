@@ -17,18 +17,20 @@ image: /images/projects/CSC481-2DGameEngine/gameplay.gif
 description: "A 2D Game engine developed for my class, Game Engine Foundations as a solo project. "
 toc: false
 ---
-The C++ Game Engine (Name TBD) was created for my Game Engine Foundations course. This was a solo project that was developed throughout my semester with multiple iterations. Each iteration added new features and systems related to topics such as Collision Detection, Input Handling, Multithreading, Networking, Time Scale, Game-Object Models, Event Management, and Scripting. Over the course of the class, I developed two games using the engine: a multiplayer side-scroller platformer and a top-down survival game with enemy AI. 
+The C++ Game Enginewas created for CSC481 Game Engine Foundations course. This was a solo project that was developed throughout my semester with multiple iterations. Each iteration added new features and systems related to topics such as Collision Detection, Input Handling, Multithreading, Networking, Time Scale, Game-Object Models, Event Management, and Scripting. Over the course of the class, I developed two games using the engine: a multiplayer side-scroller platformer and a top-down survival game with enemy AI. 
 
 Contact me if you want to access the source code and games.
 
 ## My Work
 Contribtions:
   - Iteration 1: 
-    - Created a simple platformer with collision detection with player and platform objects that took keyboard inputs
+    - Created a platformer with collision detection.
+    - Implemented player that used keyboard inputs
+    - Implemented platform objects
   - Iteration 2:
-    - Implemented multithreading which would handle player and platform movement
+    - Implemented multithreading that handled player and platform movement
     - Implemented game time so the player could control the speed of the game (half speed, normal speed, and double speed)
-    - Used ZeroMQ's library to implement networking. The clients could communicate to the server using the REQ-REP model. 
+    - Used ZeroMQ's library to implement networking. The clients communicate to the server using the REQ-REP model. 
   - Iteration 3:
     - Designed and implemented the Entity-Component game object model.
     - Refactored the entire engine to allow the entity-component system to interact with previous features.

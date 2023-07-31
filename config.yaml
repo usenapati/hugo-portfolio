@@ -166,6 +166,10 @@ params:
         links:
           - icon: fab fa-github
             url: https://github.com/usenapati/Transfusion_VR
+          - icon: fab fa-steam
+            url: https://store.steampowered.com/app/2397910/Transfusion/
+          - icon: fab fa-itch-io
+            url: https://udayansenapati.itch.io/transfusion
       - title: Mecha Mania
         content: |+    
           A Multiplayer FPS fan game inspired by Titanfall 2 and Gundam franchise. The game is being developed in Unreal Engine 5 and built for Windows. The goal of the project is to create a complete networked multiplayer game in Unreal Engine using C++, while learning the core fundamentals of the First Person Shooter genre. 
@@ -327,7 +331,7 @@ params:
         companyUrl: https://sites.google.com/ncsu.edu/poem/
         date: "June 2021 - Aug 2021"
         content: |-
-          POEM Lab is an undergraduate lab that designs programming languages and tools, for computer generated narratives.
+          POEM Lab is an undergraduate lab that designs programming languages and tools for computer generated narratives.
           - Incorporated voice recognition for Ceptre Editor using Talon Voice Control. The Ceptre Editor is a browser-based structure editor for POEM’s rule-based language, Ceptre.
           - Followed WAI-ARIA specifications to make the software accessible to people with disabilities using HTML and JavaScript.
       - job: "Developer"
